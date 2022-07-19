@@ -1,0 +1,4 @@
+slack:
+ token: "xoxb-3715099400678-3722755924595-dKoj3GeUGYQIBxnzJWVU8IG6"
+ channel:
+  monitor: '오늘의메뉴'
