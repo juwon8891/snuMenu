@@ -14,9 +14,9 @@ import java.io.IOException;
 @Slf4j
 public class SlackAlterService {
     @Value(value = "${slack.token}")
-    String token = "xoxb-3715099400678-3722755924595-dKoj3GeUGYQIBxnzJWVU8IG6";
+    String token; // slack token 삭제
     @Value(value = "${slack.channel.monitor}")
-    String channel = "오늘의메뉴";
+    String channel; // slack channel 삭제
     public void slackSendMessage(String message){
         try{
             MethodsClient methods = Slack.getInstance().methods(token);
