@@ -65,7 +65,7 @@ public class MenuService {
             Element element = dinner.get(i);
             menuMessage += element.text() + "\n" + restaurant.get(i) + "\n";
         }
-        menuMessage = menuMessage.trim(); //앞뒤 공백 제거
+        menuMessage = menuMessage.trim(); //앞뒤 공백 제거!
         log.info("[Dinner] = " + menuMessage);
         Menu.setMenu(menuMessage);
     }
